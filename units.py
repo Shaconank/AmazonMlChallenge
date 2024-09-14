@@ -35,3 +35,46 @@ unit_variations = {
     'pint': {'pt', 'pint'},
     'quart': {'qt', 'quart'}
 }
+
+more_unit_variations = {
+    # Length units
+    'centimetre': {'cm', 'centimeter', 'centimetre', 'centi-meter', 'centi-metre'},
+    'foot': {'ft', 'foot', 'feet', "'", 'foot-unit'},
+    'inch': {'in', 'inch', '"', 'inches'},
+    'metre': {'m', 'meter', 'metre', 'met-er', 'met-re'},
+    'millimetre': {'mm', 'millimeter', 'millimetre', 'milli-meter', 'milli-metre'},
+    'yard': {'yd', 'yard', 'yards'},
+
+    # Mass/Weight units
+    'gram': {'g', 'gram', 'grams', 'gm'},
+    'kilogram': {'kg', 'kilogram', 'kilograms', 'kilo-gram'},
+    'microgram': {'µg', 'microgram', 'micro-gram'},
+    'milligram': {'mg', 'milligram', 'milli-gram'},
+    'ounce': {'oz', 'ounce', 'ounces'},
+    'pound': {'lb', 'lbs', 'pound', 'pounds', '#', 'lbm'},
+    'ton': {'ton', 'tons', 'tonne', 'tonnes', 't', 'metric ton', 'metric tonne'},
+
+    # Electric potential units
+    'kilovolt': {'kV', 'kilovolt', 'kilo-volt'},
+    'millivolt': {'mV', 'millivolt', 'milli-volt'},
+    'volt': {'V', 'volt', 'volts'},
+
+    # Power units
+    'kilowatt': {'kW', 'kilowatt', 'kilo-watt'},
+    'watt': {'W', 'watt', 'watts'},
+
+    # Volume units
+    'centilitre': {'cL', 'centiliter', 'centilitre', 'centi-liter', 'centi-litre'},
+    'cubic foot': {'ft³', 'cubic foot', 'cubic feet', 'ft^3'},
+    'cubic inch': {'in³', 'cubic inch', 'cubic inches', 'in^3'},
+    'cup': {'cup', 'C', 'cups'},
+    'decilitre': {'dL', 'deciliter', 'decilitre', 'deci-liter', 'deci-litre'},
+    'fluid ounce': {'fl oz', 'fluid ounce', 'fluid ounces', 'fl. oz.'},
+    'gallon': {'gal', 'gallon', 'gallons', 'US gallon'},
+    'imperial gallon': {'imp gal', 'imperial gallon', 'imperial gallons'},
+    'litre': {'L', 'liter', 'litre', 'liters', 'litres'},
+    'microlitre': {'µL', 'microliter', 'microlitre', 'micro-liter', 'micro-litre'},
+    'millilitre': {'mL', 'milliliter', 'millilitre', 'milli-liter', 'milli-litre'},
+    'pint': {'pt', 'pint', 'pints'},
+    'quart': {'qt', 'quart', 'quarts'}
+}
