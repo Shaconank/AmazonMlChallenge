@@ -1,6 +1,7 @@
 import difflib
-from constants import entity_unit_map
-from units import unit_variations
+# from constants import entity_unit_map
+# from units import unit_variations
+from constants import collated_units
 
 # Your custom word list
 vocabulary = {"apple", "banana", "grape", "orange", "mango"}
@@ -12,8 +13,9 @@ def spell_check(word, unit_type):
     """
     # Get the closest match from the vocabulary
     try:
-        vocab = entity_unit_map[unit_type]
-        vocab = unit_variations[vocab]
+        # vocab = entity_unit_map[unit_type]
+        # vocab = unit_variations[vocab]
+        vocab = collated_units[unit_type]
     except KeyError:
         print(f"spell_check.py : unit_type {unit_type} is not a valid input...")
         exit(0)
@@ -25,6 +27,6 @@ def spell_check(word, unit_type):
         return f"No suggestions for '{word}'"
 
 # Test
-word = "mngo"
-suggestion = spell_check(word, vocabulary)
+word = "gsm"
+suggestion = spell_check(word, "item_weight")
 print(suggestion)

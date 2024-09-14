@@ -47,7 +47,7 @@ more_unit_variations = {
 
     # Mass/Weight units
     'gram': {'g', 'gram', 'grams', 'gm'},
-    'kilogram': {'kg', 'kilogram', 'kilograms', 'kilo-gram'},
+    'kilogram': {'kg', 'kilogram', 'kilograms', 'kilo-gram', 'kgs'},
     'microgram': {'µg', 'microgram', 'micro-gram'},
     'milligram': {'mg', 'milligram', 'milli-gram'},
     'ounce': {'oz', 'ounce', 'ounces'},

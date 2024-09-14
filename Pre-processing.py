@@ -24,5 +24,3 @@ resized_image = cv2.resize(image, (int(width * resize_scale), int(height * resiz
 # Show the resized image
 cv2.imshow('img', resized_image)
 cv2.waitKey(0)
-
-
