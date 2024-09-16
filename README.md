@@ -96,5 +96,3 @@ The script performs entity value extraction from product images using Optical Ch
 - **Parallel Processing**: Optionally speeds up the process using multiple threads.
 
 ---
-
-Feel free to modify or expand upon this explanation as needed!
